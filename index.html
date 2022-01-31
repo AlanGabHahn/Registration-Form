@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   
+    <head>
+        <meta charset="utf-8">
+        <meta id="viewport" name="viewport" content="width=device-width, user-scalable=yes">
+        <link rel="stylesheet"  type="text/css" href="assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        <title>Registration Form</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="header_title">
+
+                    <h1>Registration</h1><h1 class="form_name">Form</h1>
+
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+
+                <div class="data_people">     
+                    <form action="#" method="post"> 
+                        <fieldset>
+                            <legend>Data People</legend>
+                            <div>
+                                <label>Name</br><input type="text" name="nome" /></label> </br>
+                                <label>Age</br><input type="text" name="idade" /></label></br>
+                                <label>Address</br><input type="text" name="endereco" /></label></br>
+                                <label>City</br><input type="text" name="cidade" /></label></br>
+                                <label>State</label></br>
+                                <Select name="estado">
+                                    <option value="rs">Rio Grande do Sul</option>
+                                    <option value="sc">Santa Catarina</option>
+                                    <option value="pr">Paraná</option>
+                                    <option value="sp">São Paulo</option>
+                                    <option value="mg">Minas Gerais</option>
+                                </Select>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                
+                <div class="professional_data">
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>Professional Data</legend>
+                            <div>
+                                <label>Office</br>
+                                    <input type="radio" name="cargo" value="1" checked /> Gerência
+                                    <input type="radio" name="cargo" value="2" /> Financeiro
+                                    <input type="radio" name="cargo" value="3" /> Recepção
+                                    <input type="radio" name="cargo" value="4" /> Administrativo
+                                    <input type="radio" name="cargo" value="3" /> Suporte
+                                    <input type="radio" name="cargo" value="4" /> Programação
+                                </label></br>
+                                <label>Interest</br>
+                                    <input type="checkbox" name="area1" value="com" /> Database Management
+                                    <input type="checkbox" name="area1" value="com" /> Network Administration
+                                    <input type="checkbox" name="area1" value="com" /> Systems Analysis
+                                </label></br>
+                                <label>Capabilities</br><textarea name="curriculo" ></textarea></label></br>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="limpar_enviar">
+                    <form action="#" method="post">      	
+                        <input type ="reset" value="Clear" />
+                        <button>To Send</button>  
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+    </body>
+
+</html>
